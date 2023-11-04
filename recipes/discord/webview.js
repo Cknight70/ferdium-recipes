@@ -8,7 +8,7 @@ module.exports = (Ferdium, settings) => {
   const getMessages = () => {
     let directCount = 0;
     const directCountPerServer = document.querySelectorAll(
-      '[class*="lowerBadge-"] [class*="numberBadge-"]',
+      '[class*="lowerBadge_"] [class*="numberBadge_"]',
     );
 
     for (const directCountBadge of directCountPerServer) {
